@@ -8,16 +8,13 @@
 
 int main()
 {
-
 	std::cout << "Discord Message Wiper by IvaN4GameS!\n";
 	std::cout << "\n";
 	std::cout << "Hold F4 to start deleting discord messages.\n";
 	
-
-	while (TRUE)
+	while (true)
 	{
 
-        
 		Sleep(1);
 		if (GetKeyState(0x73) & 0x8000) {
 
@@ -34,10 +31,6 @@ int main()
 			keybd_event(VK_RETURN, 0, 0, 0);
 			keybd_event(VK_RETURN, 0, KEYEVENTF_KEYUP, 0);
 			Sleep(80);
-			
-			
-		
-
 			
 		}
 	}
