@@ -1,4 +1,4 @@
-# Discord-Message-Wiper #PATCHEDBYDISCORD:(
+# Discord-Message-Wiper 
 Deletes discord messages
 
 Simple tool that uses keyboard events instead of requiring discord authToken, made to fast delete discord messages by holding a keybind, go to "releases" to download executable...
